@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hash</title>
+</head>
+<body>
+    
+    <div class="wraper">
+
+        <a style="text-decoration: none;" href="../index.html"><--</a>
+
+        <form id="form">
+            <h1>Criptografar frases</h1>
+            <input type="text" id="string">
+            <br><br>
+            <button onclick='gerafrase()'>Gerar frase criptografada</button>
+        </form>
+
+        <div class="retorno">
+            <h2>Mensagem digitada: </h2>
+            <span id="mensagem"></span>
+            
+            <h2>Hash da mensagem: </h2>
+            <span id="hash"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
